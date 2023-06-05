@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/plantsystem/plantsystem.egg-info
+writing ../../build/plantsystem/plantsystem.egg-info/PKG-INFO
+writing dependency_links to ../../build/plantsystem/plantsystem.egg-info/dependency_links.txt
+writing entry points to ../../build/plantsystem/plantsystem.egg-info/entry_points.txt
+writing requirements to ../../build/plantsystem/plantsystem.egg-info/requires.txt
+writing top-level names to ../../build/plantsystem/plantsystem.egg-info/top_level.txt
+writing manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'
+reading manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'
+writing manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/emli5_ws/build/plantsystem/build
+creating /home/pi/emli5_ws/build/plantsystem/build/lib
+creating /home/pi/emli5_ws/build/plantsystem/build/lib/plantsystem
+copying plantsystem/__init__.py -> /home/pi/emli5_ws/build/plantsystem/build/lib/plantsystem
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages/plantsystem
+copying /home/pi/emli5_ws/build/plantsystem/build/lib/plantsystem/__init__.py -> /home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages/plantsystem
+byte-compiling /home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages/plantsystem/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pi/emli5_ws/install/plantsystem/share/ament_index
+creating /home/pi/emli5_ws/install/plantsystem/share/ament_index/resource_index
+creating /home/pi/emli5_ws/install/plantsystem/share/ament_index/resource_index/packages
+copying resource/plantsystem -> /home/pi/emli5_ws/install/plantsystem/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/emli5_ws/install/plantsystem/share/plantsystem
+running install_egg_info
+Copying ../../build/plantsystem/plantsystem.egg-info to /home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages/plantsystem-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/pi/emli5_ws/build/plantsystem/install.log'

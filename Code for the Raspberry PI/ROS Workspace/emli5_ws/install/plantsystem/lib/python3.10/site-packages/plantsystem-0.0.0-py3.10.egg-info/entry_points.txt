@@ -1,0 +1,5 @@
+[console_scripts]
+farmer_node = plantsystem.farmer_node:main
+pi_node = plantsystem.pi_node:main
+wateringsystem_node = plantsystem.wateringsystem_node:main
+

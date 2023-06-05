@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/plantsystem/plantsystem.egg-info/PKG-INFO
+../../build/plantsystem/plantsystem.egg-info/SOURCES.txt
+../../build/plantsystem/plantsystem.egg-info/dependency_links.txt
+../../build/plantsystem/plantsystem.egg-info/entry_points.txt
+../../build/plantsystem/plantsystem.egg-info/requires.txt
+../../build/plantsystem/plantsystem.egg-info/top_level.txt
+../../build/plantsystem/plantsystem.egg-info/zip-safe
+resource/plantsystem
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

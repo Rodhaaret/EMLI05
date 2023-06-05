@@ -1,0 +1,141 @@
+[1.975s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'plantsystem']
+[1.976s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['plantsystem'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb3cc3850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb4561630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb4561630>>)
+[2.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.128s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/emli5_ws'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extensions ['ignore', 'ignore_ament_install']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extension 'ignore'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extension 'ignore_ament_install'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extensions ['colcon_pkg']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extension 'colcon_pkg'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extensions ['colcon_meta']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extension 'colcon_meta'
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extensions ['ros']
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/plantsystem) by extension 'ros'
+[2.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/plantsystem' with type 'ros.ament_python' and name 'plantsystem'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extensions ['ignore', 'ignore_ament_install']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extension 'ignore_ament_install'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extensions ['colcon_pkg']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extension 'colcon_pkg'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extensions ['colcon_meta']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extension 'colcon_meta'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extensions ['ros']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extension 'ros'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extensions ['cmake', 'python']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extension 'cmake'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extension 'python'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extensions ['python_setup_py']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(system_info) by extension 'python_setup_py'
+[2.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.396s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[2.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.651s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'cmake_args' from command line to 'None'
+[2.651s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'cmake_target' from command line to 'None'
+[2.651s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'cmake_clean_cache' from command line to 'False'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'cmake_clean_first' from command line to 'False'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'cmake_force_configure' from command line to 'False'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'ament_cmake_args' from command line to 'None'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'catkin_cmake_args' from command line to 'None'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'plantsystem' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.653s] DEBUG:colcon.colcon_core.verb:Building package 'plantsystem' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/emli5_ws/build/plantsystem', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/emli5_ws/install/plantsystem', 'merge_install': False, 'path': '/home/pi/emli5_ws/src/plantsystem', 'symlink_install': False, 'test_result_base': None}
+[2.655s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.669s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/emli5_ws/src/plantsystem' with build type 'ament_python'
+[2.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('plantsystem', 'ament_prefix_path')
+[2.694s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/hook/ament_prefix_path.ps1'
+[2.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/hook/ament_prefix_path.dsv'
+[2.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/hook/ament_prefix_path.sh'
+[2.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/emli5_ws/src/plantsystem'
+[3.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/emli5_ws/src/plantsystem': PYTHONPATH=/home/pi/emli5_ws/build/plantsystem/prefix_override:/home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plantsystem build --build-base /home/pi/emli5_ws/build/plantsystem/build install --record /home/pi/emli5_ws/build/plantsystem/install.log --single-version-externally-managed
+[6.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/emli5_ws/src/plantsystem' returned '0': PYTHONPATH=/home/pi/emli5_ws/build/plantsystem/prefix_override:/home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plantsystem build --build-base /home/pi/emli5_ws/build/plantsystem/build install --record /home/pi/emli5_ws/build/plantsystem/install.log --single-version-externally-managed
+[6.421s] Level 1:colcon.colcon_core.environment:checking '/home/pi/emli5_ws/install/plantsystem' for CMake module files
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/pi/emli5_ws/install/plantsystem' for CMake config files
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/pi/emli5_ws/install/plantsystem/lib'
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/pi/emli5_ws/install/plantsystem/bin'
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/pi/emli5_ws/install/plantsystem/lib/pkgconfig/plantsystem.pc'
+[6.432s] Level 1:colcon.colcon_core.environment:checking '/home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages'
+[6.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('plantsystem', 'pythonpath')
+[6.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/hook/pythonpath.ps1'
+[6.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/hook/pythonpath.dsv'
+[6.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/hook/pythonpath.sh'
+[6.446s] Level 1:colcon.colcon_core.environment:checking '/home/pi/emli5_ws/install/plantsystem/bin'
+[6.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(plantsystem)
+[6.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/package.ps1'
+[6.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/package.dsv'
+[6.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/package.sh'
+[6.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/package.bash'
+[6.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/emli5_ws/install/plantsystem/share/plantsystem/package.zsh'
+[6.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/emli5_ws/install/plantsystem/share/colcon-core/packages/plantsystem)
+[6.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.475s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.495s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.496s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.496s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.501s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.502s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/emli5_ws/install/local_setup.ps1'
+[6.511s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/emli5_ws/install/_local_setup_util_ps1.py'
+[6.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/emli5_ws/install/setup.ps1'
+[6.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/emli5_ws/install/local_setup.sh'
+[6.526s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/emli5_ws/install/_local_setup_util_sh.py'
+[6.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/emli5_ws/install/setup.sh'
+[6.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/emli5_ws/install/local_setup.bash'
+[6.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/emli5_ws/install/setup.bash'
+[6.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/emli5_ws/install/local_setup.zsh'
+[6.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/emli5_ws/install/setup.zsh'

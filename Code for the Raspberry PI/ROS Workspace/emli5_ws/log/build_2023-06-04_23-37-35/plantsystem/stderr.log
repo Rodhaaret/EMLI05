@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages/plantsystem/pi_node.py", line 4
+    from plantsystems
+                     ^
+SyntaxError: invalid syntax
+

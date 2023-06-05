@@ -1,0 +1,7 @@
+running egg_info
+writing ../../build/plantsystem/plantsystem.egg-info/PKG-INFO
+writing dependency_links to ../../build/plantsystem/plantsystem.egg-info/dependency_links.txt
+writing entry points to ../../build/plantsystem/plantsystem.egg-info/entry_points.txt
+writing requirements to ../../build/plantsystem/plantsystem.egg-info/requires.txt
+writing top-level names to ../../build/plantsystem/plantsystem.egg-info/top_level.txt
+error: package directory 'plantsystem' does not exist

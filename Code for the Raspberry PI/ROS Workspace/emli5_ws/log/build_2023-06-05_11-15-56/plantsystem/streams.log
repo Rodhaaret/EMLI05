@@ -1,0 +1,9 @@
+[2.465s] Invoking command in '/home/pi/emli5_ws/src/plantsystem': PYTHONPATH=/home/pi/emli5_ws/build/plantsystem/prefix_override:/home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plantsystem build --build-base /home/pi/emli5_ws/build/plantsystem/build install --record /home/pi/emli5_ws/build/plantsystem/install.log --single-version-externally-managed
+[3.401s] running egg_info
+[3.405s] writing ../../build/plantsystem/plantsystem.egg-info/PKG-INFO
+[3.407s] writing dependency_links to ../../build/plantsystem/plantsystem.egg-info/dependency_links.txt
+[3.408s] writing entry points to ../../build/plantsystem/plantsystem.egg-info/entry_points.txt
+[3.410s] writing requirements to ../../build/plantsystem/plantsystem.egg-info/requires.txt
+[3.412s] writing top-level names to ../../build/plantsystem/plantsystem.egg-info/top_level.txt
+[3.415s] error: package directory 'plantsystem' does not exist
+[3.511s] Invoked command in '/home/pi/emli5_ws/src/plantsystem' returned '1': PYTHONPATH=/home/pi/emli5_ws/build/plantsystem/prefix_override:/home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plantsystem build --build-base /home/pi/emli5_ws/build/plantsystem/build install --record /home/pi/emli5_ws/build/plantsystem/install.log --single-version-externally-managed
