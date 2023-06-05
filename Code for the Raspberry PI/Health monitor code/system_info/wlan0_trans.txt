@@ -1,0 +1,11 @@
+Date: 2023-06-04  |  Time: 19:30:01  |  Bytes Transferred (wlan0): 506672494  |  
+Date: 2023-06-04  |  Time: 20:00:01  |  Bytes Transferred (wlan0): 512874441  |  
+Date: 2023-06-04  |  Time: 20:30:01  |  Bytes Transferred (wlan0): 518993804  |  
+Date: 2023-06-04  |  Time: 21:00:01  |  Bytes Transferred (wlan0): 531680077  |  
+Date: 2023-06-04  |  Time: 21:30:01  |  Bytes Transferred (wlan0): 540241997  |  
+Date: 2023-06-04  |  Time: 22:00:01  |  Bytes Transferred (wlan0): 556019406  |  
+Date: 2023-06-04  |  Time: 22:30:01  |  Bytes Transferred (wlan0): 27890  |  
+Date: 2023-06-04  |  Time: 23:00:01  |  Bytes Transferred (wlan0): 9352009  |  
+Date: 2023-06-04  |  Time: 23:30:01  |  Bytes Transferred (wlan0): 18696060  |  
+Date: 2023-06-05  |  Time: 10:30:01  |  Bytes Transferred (wlan0): 8379138  |  
+Date: 2023-06-05  |  Time: 11:00:01  |  Bytes Transferred (wlan0): 15729668  |  

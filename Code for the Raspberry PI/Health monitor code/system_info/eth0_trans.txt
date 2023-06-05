@@ -1,0 +1,11 @@
+Date: 2023-06-04  |  Time: 19:30:01  |  Bytes Transferred (eth0): 972269840  |  
+Date: 2023-06-04  |  Time: 20:00:01  |  Bytes Transferred (eth0): 1012731595  |  
+Date: 2023-06-04  |  Time: 20:30:01  |  Bytes Transferred (eth0): 1316347097  |  
+Date: 2023-06-04  |  Time: 21:00:01  |  Bytes Transferred (eth0): 1368936549  |  
+Date: 2023-06-04  |  Time: 21:30:01  |  Bytes Transferred (eth0): 1395918399  |  
+Date: 2023-06-04  |  Time: 22:00:01  |  Bytes Transferred (eth0): 1448887456  |  
+Date: 2023-06-04  |  Time: 22:30:01  |  Bytes Transferred (eth0): 148358  |  
+Date: 2023-06-04  |  Time: 23:00:01  |  Bytes Transferred (eth0): 186822606  |  
+Date: 2023-06-04  |  Time: 23:30:01  |  Bytes Transferred (eth0): 266288790  |  
+Date: 2023-06-05  |  Time: 10:30:01  |  Bytes Transferred (eth0): 88812866  |  
+Date: 2023-06-05  |  Time: 11:00:01  |  Bytes Transferred (eth0): 285596520  |  

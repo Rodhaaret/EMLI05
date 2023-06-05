@@ -1,0 +1,11 @@
+Date: 2023-06-04  |  Time: 19:30:01  |  CPU Load: 2.2%  |  
+Date: 2023-06-04  |  Time: 20:00:01  |  CPU Load: 4.4%  |  
+Date: 2023-06-04  |  Time: 20:30:01  |  CPU Load: 1.1%  |  
+Date: 2023-06-04  |  Time: 21:00:01  |  CPU Load: 4.4%  |  
+Date: 2023-06-04  |  Time: 21:30:01  |  CPU Load: 0.0%  |  
+Date: 2023-06-04  |  Time: 22:00:01  |  CPU Load: 4.4%  |  
+Date: 2023-06-04  |  Time: 22:30:01  |  CPU Load: 15.3%  |  
+Date: 2023-06-04  |  Time: 23:00:01  |  CPU Load: 1.1%  |  
+Date: 2023-06-04  |  Time: 23:30:01  |  CPU Load: 2.2%  |  
+Date: 2023-06-05  |  Time: 10:30:01  |  CPU Load: 2.2%  |  
+Date: 2023-06-05  |  Time: 11:00:01  |  CPU Load: 2.2%  |  

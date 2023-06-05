@@ -1,0 +1,11 @@
+Date: 2023-06-04  |  Time: 19:30:01  |  Available RAM: 17.55%  |  
+Date: 2023-06-04  |  Time: 20:00:01  |  Available RAM: 18.00%  |  
+Date: 2023-06-04  |  Time: 20:30:01  |  Available RAM: 18.84%  |  
+Date: 2023-06-04  |  Time: 21:00:01  |  Available RAM: 21.84%  |  
+Date: 2023-06-04  |  Time: 21:30:01  |  Available RAM: 20.61%  |  
+Date: 2023-06-04  |  Time: 22:00:01  |  Available RAM: 23.41%  |  
+Date: 2023-06-04  |  Time: 22:30:01  |  Available RAM: 6.70%  |  
+Date: 2023-06-04  |  Time: 23:00:01  |  Available RAM: 12.55%  |  
+Date: 2023-06-04  |  Time: 23:30:01  |  Available RAM: 12.95%  |  
+Date: 2023-06-05  |  Time: 10:30:01  |  Available RAM: 11.62%  |  
+Date: 2023-06-05  |  Time: 11:00:01  |  Available RAM: 12.53%  |  
