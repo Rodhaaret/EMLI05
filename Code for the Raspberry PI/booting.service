@@ -1,0 +1,12 @@
+﻿[Unit]
+Description=My Script
+After=network.target
+
+[Service]
+ExecStart=/home/pi/emli_WS/boot.sh
+Restart=on-failure
+RestartSec=5s
+
+
+[Install]
+WantedBy=default.target
