@@ -1,0 +1,31 @@
+[4.436s] Invoking command in '/home/pi/emli_WS/src/plantsystem': PYTHONPATH=/home/pi/emli_WS/build/plantsystem/prefix_override:/home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plantsystem build --build-base /home/pi/emli_WS/build/plantsystem/build install --record /home/pi/emli_WS/build/plantsystem/install.log --single-version-externally-managed
+[6.364s] running egg_info
+[6.369s] writing ../../build/plantsystem/plantsystem.egg-info/PKG-INFO
+[6.372s] writing dependency_links to ../../build/plantsystem/plantsystem.egg-info/dependency_links.txt
+[6.374s] writing entry points to ../../build/plantsystem/plantsystem.egg-info/entry_points.txt
+[6.377s] writing requirements to ../../build/plantsystem/plantsystem.egg-info/requires.txt
+[6.380s] writing top-level names to ../../build/plantsystem/plantsystem.egg-info/top_level.txt
+[6.388s] reading manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'
+[6.392s] writing manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'
+[6.393s] running build
+[6.394s] running build_py
+[6.396s] copying plantsystem/pi_node.py -> /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem
+[6.403s] copying plantsystem/wateringsystem_node.py -> /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem
+[6.404s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.408s]   warnings.warn(
+[6.410s] running install
+[6.413s] running install_lib
+[6.414s] copying /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem/pi_node.py -> /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem
+[6.416s] copying /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem/wateringsystem_node.py -> /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem
+[6.418s] byte-compiling /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem/pi_node.py to pi_node.cpython-310.pyc
+[6.421s] byte-compiling /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem/wateringsystem_node.py to wateringsystem_node.cpython-310.pyc
+[6.425s] running install_data
+[6.428s] running install_egg_info
+[6.442s] removing '/home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem-0.0.0-py3.10.egg-info' (and everything under it)
+[6.451s] Copying ../../build/plantsystem/plantsystem.egg-info to /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem-0.0.0-py3.10.egg-info
+[6.463s] running install_scripts
+[6.594s] Installing farmer_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem
+[6.596s] Installing pi_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem
+[6.597s] Installing wateringsystem_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem
+[6.598s] writing list of installed files to '/home/pi/emli_WS/build/plantsystem/install.log'
+[6.800s] Invoked command in '/home/pi/emli_WS/src/plantsystem' returned '0': PYTHONPATH=/home/pi/emli_WS/build/plantsystem/prefix_override:/home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plantsystem build --build-base /home/pi/emli_WS/build/plantsystem/build install --record /home/pi/emli_WS/build/plantsystem/install.log --single-version-externally-managed

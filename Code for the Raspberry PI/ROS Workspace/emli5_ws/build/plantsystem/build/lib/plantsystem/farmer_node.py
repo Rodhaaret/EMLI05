@@ -8,7 +8,7 @@ import urllib.request
 class Farmer(Node):
 
     def __init__(self):
-        super().__init__('farmer')
+        super().__init__('Farmer')
         
         # Button
         self.buttonPublisher = self.create_publisher(Bool, 'Button', 1)
@@ -38,23 +38,20 @@ class Farmer(Node):
         if str(strhtml[0]) != '0':
             msg.data = True
             self.buttonPublisher.publish(msg)
-            self.get_logger().info('Button Pushed: "%s"' % msg.data)
     
     def LED_callback(self, input_msg):
-        if input_msg.data == 0:
+        if input_msg.data == 0: # Green
             urllib.request.urlopen(self.Green_on_URL)
             urllib.request.urlopen(self.Yellow_off_URL)
             urllib.request.urlopen(self.Red_off_URL)
-        elif input_msg.data == 1:
+        elif input_msg.data == 1: # Yellow
             urllib.request.urlopen(self.Green_off_URL)
             urllib.request.urlopen(self.Yellow_on_URL)
             urllib.request.urlopen(self.Red_off_URL)
-        else:
+        else: # Red
             urllib.request.urlopen(self.Green_off_URL)
             urllib.request.urlopen(self.Yellow_off_URL)
             urllib.request.urlopen(self.Red_on_URL)
-
-           
 
 def main():
     

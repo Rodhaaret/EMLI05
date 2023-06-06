@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.013783] (plantsystem) JobQueued: {'identifier': 'plantsystem', 'dependencies': OrderedDict()}
+[0.014361] (plantsystem) JobStarted: {'identifier': 'plantsystem'}
+[0.088099] (-) TimerEvent: {}
+[0.190178] (-) TimerEvent: {}
+[0.292517] (-) TimerEvent: {}
+[0.393933] (-) TimerEvent: {}
+[0.498210] (-) TimerEvent: {}
+[0.601747] (-) TimerEvent: {}
+[0.703471] (-) TimerEvent: {}
+[0.806735] (-) TimerEvent: {}
+[0.911645] (-) TimerEvent: {}
+[1.012560] (-) TimerEvent: {}
+[1.113725] (-) TimerEvent: {}
+[1.215193] (-) TimerEvent: {}
+[1.316108] (-) TimerEvent: {}
+[1.417095] (-) TimerEvent: {}
+[1.518631] (-) TimerEvent: {}
+[1.620084] (-) TimerEvent: {}
+[1.722132] (-) TimerEvent: {}
+[1.824380] (-) TimerEvent: {}
+[1.925879] (-) TimerEvent: {}
+[2.026813] (-) TimerEvent: {}
+[2.128420] (-) TimerEvent: {}
+[2.230272] (-) TimerEvent: {}
+[2.331630] (-) TimerEvent: {}
+[2.433286] (-) TimerEvent: {}
+[2.534689] (-) TimerEvent: {}
+[2.635872] (-) TimerEvent: {}
+[2.737488] (-) TimerEvent: {}
+[2.839042] (-) TimerEvent: {}
+[2.940676] (-) TimerEvent: {}
+[3.044101] (-) TimerEvent: {}
+[3.148011] (-) TimerEvent: {}
+[3.252373] (-) TimerEvent: {}
+[3.356350] (-) TimerEvent: {}
+[3.458406] (-) TimerEvent: {}
+[3.567936] (-) TimerEvent: {}
+[3.669335] (-) TimerEvent: {}
+[3.770301] (-) TimerEvent: {}
+[3.871239] (-) TimerEvent: {}
+[3.972135] (-) TimerEvent: {}
+[4.073283] (-) TimerEvent: {}
+[4.174337] (-) TimerEvent: {}
+[4.275686] (-) TimerEvent: {}
+[4.376773] (-) TimerEvent: {}
+[4.477768] (-) TimerEvent: {}
+[4.579041] (-) TimerEvent: {}
+[4.680244] (-) TimerEvent: {}
+[4.781545] (-) TimerEvent: {}
+[4.883407] (-) TimerEvent: {}
+[4.985873] (-) TimerEvent: {}
+[5.086864] (-) TimerEvent: {}
+[5.188168] (-) TimerEvent: {}
+[5.289911] (-) TimerEvent: {}
+[5.390898] (-) TimerEvent: {}
+[5.492387] (-) TimerEvent: {}
+[5.593551] (-) TimerEvent: {}
+[5.694965] (-) TimerEvent: {}
+[5.795833] (-) TimerEvent: {}
+[5.896960] (-) TimerEvent: {}
+[5.999308] (-) TimerEvent: {}
+[6.101443] (-) TimerEvent: {}
+[6.203541] (-) TimerEvent: {}
+[6.305664] (-) TimerEvent: {}
+[6.406804] (-) TimerEvent: {}
+[6.508639] (-) TimerEvent: {}
+[6.610377] (-) TimerEvent: {}
+[6.713041] (-) TimerEvent: {}
+[6.814517] (-) TimerEvent: {}
+[6.915541] (-) TimerEvent: {}
+[7.016998] (-) TimerEvent: {}
+[7.117921] (-) TimerEvent: {}
+[7.219299] (-) TimerEvent: {}
+[7.320908] (-) TimerEvent: {}
+[7.428347] (-) TimerEvent: {}
+[7.532090] (-) TimerEvent: {}
+[7.633664] (-) TimerEvent: {}
+[7.738890] (-) TimerEvent: {}
+[7.768693] (plantsystem) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/plantsystem', 'build', '--build-base', '/home/pi/emli_WS/build/plantsystem/build', 'install', '--record', '/home/pi/emli_WS/build/plantsystem/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/emli_WS/src/plantsystem', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.42.0.107 33858 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/emli_WS/src', 'SSH_TTY': '/dev/pts/11', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/emli5_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/emli5_ws/install/plantsystem:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/pi/emli_WS/build/plantsystem', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.107 33858 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/emli_WS/build/plantsystem/prefix_override:/home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages:/home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1'}, 'shell': False}
+[7.839349] (-) TimerEvent: {}
+[7.942271] (-) TimerEvent: {}
+[8.044392] (-) TimerEvent: {}
+[8.149589] (-) TimerEvent: {}
+[8.253039] (-) TimerEvent: {}
+[8.356484] (-) TimerEvent: {}
+[8.458401] (-) TimerEvent: {}
+[8.560361] (-) TimerEvent: {}
+[8.661851] (-) TimerEvent: {}
+[8.765019] (-) TimerEvent: {}
+[8.866837] (-) TimerEvent: {}
+[8.969611] (-) TimerEvent: {}
+[9.071793] (-) TimerEvent: {}
+[9.175135] (-) TimerEvent: {}
+[9.277907] (-) TimerEvent: {}
+[9.379997] (-) TimerEvent: {}
+[9.484446] (-) TimerEvent: {}
+[9.586861] (-) TimerEvent: {}
+[9.688955] (-) TimerEvent: {}
+[9.791071] (-) TimerEvent: {}
+[9.892340] (-) TimerEvent: {}
+[9.993904] (-) TimerEvent: {}
+[10.095198] (-) TimerEvent: {}
+[10.196924] (-) TimerEvent: {}
+[10.298265] (-) TimerEvent: {}
+[10.399456] (-) TimerEvent: {}
+[10.500760] (-) TimerEvent: {}
+[10.602239] (-) TimerEvent: {}
+[10.704095] (-) TimerEvent: {}
+[10.806189] (-) TimerEvent: {}
+[10.864459] (plantsystem) StdoutLine: {'line': b'running egg_info\n'}
+[10.874379] (plantsystem) StdoutLine: {'line': b'writing ../../build/plantsystem/plantsystem.egg-info/PKG-INFO\n'}
+[10.879443] (plantsystem) StdoutLine: {'line': b'writing dependency_links to ../../build/plantsystem/plantsystem.egg-info/dependency_links.txt\n'}
+[10.883529] (plantsystem) StdoutLine: {'line': b'writing entry points to ../../build/plantsystem/plantsystem.egg-info/entry_points.txt\n'}
+[10.894640] (plantsystem) StdoutLine: {'line': b'writing requirements to ../../build/plantsystem/plantsystem.egg-info/requires.txt\n'}
+[10.903381] (plantsystem) StdoutLine: {'line': b'writing top-level names to ../../build/plantsystem/plantsystem.egg-info/top_level.txt\n'}
+[10.910221] (-) TimerEvent: {}
+[10.910959] (plantsystem) StdoutLine: {'line': b"reading manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'\n"}
+[10.914746] (plantsystem) StdoutLine: {'line': b"writing manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'\n"}
+[10.918209] (plantsystem) StdoutLine: {'line': b'running build\n'}
+[10.919137] (plantsystem) StdoutLine: {'line': b'running build_py\n'}
+[10.919674] (plantsystem) StdoutLine: {'line': b'copying plantsystem/pi_node.py -> /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem\n'}
+[10.920181] (plantsystem) StdoutLine: {'line': b'copying plantsystem/wateringsystem_node.py -> /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem\n'}
+[10.923559] (plantsystem) StdoutLine: {'line': b'running install\n'}
+[10.926152] (plantsystem) StdoutLine: {'line': b'running install_lib\n'}
+[10.928081] (plantsystem) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.929128] (plantsystem) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.934532] (plantsystem) StdoutLine: {'line': b'copying /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem/pi_node.py -> /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem\n'}
+[10.936025] (plantsystem) StdoutLine: {'line': b'copying /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem/wateringsystem_node.py -> /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem\n'}
+[10.940467] (plantsystem) StdoutLine: {'line': b'byte-compiling /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem/pi_node.py to pi_node.cpython-310.pyc\n'}
+[10.947317] (plantsystem) StdoutLine: {'line': b'byte-compiling /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem/wateringsystem_node.py to wateringsystem_node.cpython-310.pyc\n'}
+[10.953889] (plantsystem) StdoutLine: {'line': b'running install_data\n'}
+[10.957218] (plantsystem) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.970642] (plantsystem) StdoutLine: {'line': b"removing '/home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.973787] (plantsystem) StdoutLine: {'line': b'Copying ../../build/plantsystem/plantsystem.egg-info to /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem-0.0.0-py3.10.egg-info\n'}
+[10.993828] (plantsystem) StdoutLine: {'line': b'running install_scripts\n'}
+[11.010427] (-) TimerEvent: {}
+[11.111679] (-) TimerEvent: {}
+[11.182717] (plantsystem) StdoutLine: {'line': b'Installing farmer_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem\n'}
+[11.186366] (plantsystem) StdoutLine: {'line': b'Installing pi_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem\n'}
+[11.187905] (plantsystem) StdoutLine: {'line': b'Installing wateringsystem_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem\n'}
+[11.192163] (plantsystem) StdoutLine: {'line': b"writing list of installed files to '/home/pi/emli_WS/build/plantsystem/install.log'\n"}
+[11.212006] (-) TimerEvent: {}
+[11.313812] (-) TimerEvent: {}
+[11.416437] (-) TimerEvent: {}
+[11.509463] (plantsystem) CommandEnded: {'returncode': 0}
+[11.517434] (-) TimerEvent: {}
+[11.620392] (-) TimerEvent: {}
+[11.679411] (plantsystem) JobEnded: {'identifier': 'plantsystem', 'rc': 0}
+[11.698298] (-) EventReactorShutdown: {}

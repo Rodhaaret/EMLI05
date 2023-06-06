@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.001719] (plantsystem) JobQueued: {'identifier': 'plantsystem', 'dependencies': OrderedDict()}
+[0.002412] (plantsystem) JobStarted: {'identifier': 'plantsystem'}
+[0.098993] (-) TimerEvent: {}
+[0.200057] (-) TimerEvent: {}
+[0.300962] (-) TimerEvent: {}
+[0.401888] (-) TimerEvent: {}
+[0.502669] (-) TimerEvent: {}
+[0.603412] (-) TimerEvent: {}
+[0.704121] (-) TimerEvent: {}
+[0.804803] (-) TimerEvent: {}
+[0.905560] (-) TimerEvent: {}
+[1.006293] (-) TimerEvent: {}
+[1.107138] (-) TimerEvent: {}
+[1.208268] (-) TimerEvent: {}
+[1.309006] (-) TimerEvent: {}
+[1.409954] (-) TimerEvent: {}
+[1.510852] (-) TimerEvent: {}
+[1.611633] (-) TimerEvent: {}
+[1.712351] (-) TimerEvent: {}
+[1.813054] (-) TimerEvent: {}
+[1.913781] (-) TimerEvent: {}
+[2.014534] (-) TimerEvent: {}
+[2.115266] (-) TimerEvent: {}
+[2.215975] (-) TimerEvent: {}
+[2.316657] (-) TimerEvent: {}
+[2.417384] (-) TimerEvent: {}
+[2.518309] (-) TimerEvent: {}
+[2.619335] (-) TimerEvent: {}
+[2.636432] (plantsystem) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/plantsystem', 'build', '--build-base', '/home/pi/emli_WS/build/plantsystem/build', 'install', '--record', '/home/pi/emli_WS/build/plantsystem/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/emli_WS/src/plantsystem', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.42.0.107 33858 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/emli_WS/src', 'SSH_TTY': '/dev/pts/11', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/emli5_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/emli5_ws/install/plantsystem:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/pi/emli_WS/build/plantsystem', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.107 33858 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/emli_WS/build/plantsystem/prefix_override:/home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages:/home/pi/emli5_ws/install/plantsystem/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.719518] (-) TimerEvent: {}
+[2.820237] (-) TimerEvent: {}
+[2.920969] (-) TimerEvent: {}
+[3.021920] (-) TimerEvent: {}
+[3.122782] (-) TimerEvent: {}
+[3.223452] (-) TimerEvent: {}
+[3.324115] (-) TimerEvent: {}
+[3.424814] (-) TimerEvent: {}
+[3.525539] (-) TimerEvent: {}
+[3.626324] (-) TimerEvent: {}
+[3.684596] (plantsystem) StdoutLine: {'line': b'running egg_info\n'}
+[3.688300] (plantsystem) StdoutLine: {'line': b'writing ../../build/plantsystem/plantsystem.egg-info/PKG-INFO\n'}
+[3.689438] (plantsystem) StdoutLine: {'line': b'writing dependency_links to ../../build/plantsystem/plantsystem.egg-info/dependency_links.txt\n'}
+[3.690432] (plantsystem) StdoutLine: {'line': b'writing entry points to ../../build/plantsystem/plantsystem.egg-info/entry_points.txt\n'}
+[3.691188] (plantsystem) StdoutLine: {'line': b'writing requirements to ../../build/plantsystem/plantsystem.egg-info/requires.txt\n'}
+[3.691796] (plantsystem) StdoutLine: {'line': b'writing top-level names to ../../build/plantsystem/plantsystem.egg-info/top_level.txt\n'}
+[3.700288] (plantsystem) StdoutLine: {'line': b"reading manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'\n"}
+[3.704039] (plantsystem) StdoutLine: {'line': b"writing manifest file '../../build/plantsystem/plantsystem.egg-info/SOURCES.txt'\n"}
+[3.704744] (plantsystem) StdoutLine: {'line': b'running build\n'}
+[3.705244] (plantsystem) StdoutLine: {'line': b'running build_py\n'}
+[3.705940] (plantsystem) StdoutLine: {'line': b'copying plantsystem/wateringsystem_node.py -> /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem\n'}
+[3.707010] (plantsystem) StdoutLine: {'line': b'copying plantsystem/pi_node copy.py -> /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem\n'}
+[3.708390] (plantsystem) StdoutLine: {'line': b'copying plantsystem/farmer_node.py -> /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem\n'}
+[3.709735] (plantsystem) StdoutLine: {'line': b'running install\n'}
+[3.710587] (plantsystem) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.711160] (plantsystem) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.711705] (plantsystem) StdoutLine: {'line': b'running install_lib\n'}
+[3.715063] (plantsystem) StdoutLine: {'line': b'copying /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem/wateringsystem_node.py -> /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem\n'}
+[3.716069] (plantsystem) StdoutLine: {'line': b'copying /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem/pi_node copy.py -> /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem\n'}
+[3.716825] (plantsystem) StdoutLine: {'line': b'copying /home/pi/emli_WS/build/plantsystem/build/lib/plantsystem/farmer_node.py -> /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem\n'}
+[3.719397] (plantsystem) StdoutLine: {'line': b'byte-compiling /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem/wateringsystem_node.py to wateringsystem_node.cpython-310.pyc\n'}
+[3.722754] (plantsystem) StdoutLine: {'line': b'byte-compiling /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem/pi_node copy.py to pi_node copy.cpython-310.pyc\n'}
+[3.726203] (plantsystem) StdoutLine: {'line': b'byte-compiling /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem/farmer_node.py to farmer_node.cpython-310.pyc\n'}
+[3.726850] (-) TimerEvent: {}
+[3.728573] (plantsystem) StdoutLine: {'line': b'running install_data\n'}
+[3.730813] (plantsystem) StdoutLine: {'line': b'copying package.xml -> /home/pi/emli_WS/install/plantsystem/share/plantsystem\n'}
+[3.732428] (plantsystem) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.738102] (plantsystem) StdoutLine: {'line': b"removing '/home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.739784] (plantsystem) StdoutLine: {'line': b'Copying ../../build/plantsystem/plantsystem.egg-info to /home/pi/emli_WS/install/plantsystem/lib/python3.10/site-packages/plantsystem-0.0.0-py3.10.egg-info\n'}
+[3.745190] (plantsystem) StdoutLine: {'line': b'running install_scripts\n'}
+[3.827025] (-) TimerEvent: {}
+[3.827852] (plantsystem) StdoutLine: {'line': b'Installing farmer_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem\n'}
+[3.828620] (plantsystem) StdoutLine: {'line': b'Installing pi_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem\n'}
+[3.829538] (plantsystem) StdoutLine: {'line': b'Installing wateringsystem_node script to /home/pi/emli_WS/install/plantsystem/lib/plantsystem\n'}
+[3.831206] (plantsystem) StdoutLine: {'line': b"writing list of installed files to '/home/pi/emli_WS/build/plantsystem/install.log'\n"}
+[3.927354] (-) TimerEvent: {}
+[3.957482] (plantsystem) CommandEnded: {'returncode': 0}
+[4.025586] (plantsystem) JobEnded: {'identifier': 'plantsystem', 'rc': 0}
+[4.028868] (-) TimerEvent: {}
+[4.029225] (-) EventReactorShutdown: {}

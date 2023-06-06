@@ -30,17 +30,13 @@ def generate_launch_description():
 
     foxglove=IncludeLaunchDescription(
         XMLLaunchDescriptionSource(
-            os.path.join('/opt/ros/humble/share/foxglove_bridge/foxglove_bridge_launch.xml')),
-        launch_arguments={
-            'address': '0.0.0.0',
-            'port': 'localhost'
-        }.items()
+            os.path.join('/opt/ros/humble/share/foxglove_bridge/foxglove_bridge_launch.xml'))
     )
 
     ld.add_action(FarmerNode)
     ld.add_action(PiNode)
     ld.add_action(WateringsystemNode)
-    #ld.add_action(foxglove)
+    ld.add_action(foxglove)
    
     return ld
 

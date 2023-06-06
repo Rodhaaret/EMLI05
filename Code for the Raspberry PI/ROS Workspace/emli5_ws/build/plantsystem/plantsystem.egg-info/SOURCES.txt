@@ -8,6 +8,10 @@ setup.py
 ../../build/plantsystem/plantsystem.egg-info/requires.txt
 ../../build/plantsystem/plantsystem.egg-info/top_level.txt
 ../../build/plantsystem/plantsystem.egg-info/zip-safe
+plantsystem/__init__.py
+plantsystem/farmer_node.py
+plantsystem/pi_node.py
+plantsystem/wateringsystem_node.py
 resource/plantsystem
 test/test_copyright.py
 test/test_flake8.py
